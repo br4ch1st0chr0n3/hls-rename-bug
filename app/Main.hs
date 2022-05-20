@@ -7,7 +7,7 @@ main = someFunc
 
 data DBColumnDescription = String
 
-data DBColumn = Column {
-  name :: String,
-  description :: DBColumnDescription
+data DBColumn = DBColumn {
+  DBColumn :: String,
+  DBColumn :: DBColumnDescription
 }
